@@ -19,7 +19,9 @@ const InputField = ({
         <StyledField name={name} component="select" id={name} required>
           <option />
           {options.map((option) => (
-            <option value={option}>{option}</option>
+            <option key={option} value={option}>
+              {option}
+            </option>
           ))}
         </StyledField>
       ) : (
