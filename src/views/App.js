@@ -1,7 +1,8 @@
 import React from 'react';
+import DishForm from 'components/organisms/DishForm';
 
 function App() {
-  return <h1>Hello World!</h1>;
+  return <DishForm />;
 }
 
 export default App;
