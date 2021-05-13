@@ -1,9 +1,9 @@
 export const theme = {
   fontSize: {
     small: '12px',
-    normal: '14px',
-    big: '16px',
-    large: '24px',
+    normal: '18px',
+    big: '24px',
+    large: '32px',
   },
   colors: {
     mainBackground: '#fff',
@@ -12,9 +12,8 @@ export const theme = {
     buttonText: '#ffffff',
     grey: '#8B8C89',
     mercury: '#E5E5E5',
-    alabaster: '#FAFAFA',
     scoripion: '#5E5E5E',
-    apple: '#33CC33',
+    teal: ' #008080',
     crimson: '#dc143c',
   },
   media: {
