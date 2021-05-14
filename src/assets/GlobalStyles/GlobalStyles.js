@@ -14,8 +14,6 @@ export const GlobalStyle = createGlobalStyle`
     } 
       body {
         width:100vw;
-        height:100vh;
-        overflow-y:hidden;
         display:flex;
         justify-content:center;
         align-items:center;
@@ -23,7 +21,11 @@ export const GlobalStyle = createGlobalStyle`
         font-weight: 400;
         background-image:url(${backgroundImage});
         background-repeat:no-repeat;
-        background-size: 100%;
+        background-size: cover;
         color: ${({ theme }) => theme.colors.mainText};
+
+        @media (max-width: ${({ theme }) => theme.media.mobile}px) {
+        padding: 20px;
+        }
     }
 `;
