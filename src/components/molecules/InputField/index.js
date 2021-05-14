@@ -11,12 +11,19 @@ const InputField = ({
   step,
   min,
   max,
+  normalize,
 }) => {
   return (
     <InputWrapper>
       <StyledLabel htmlFor={name}>{label}:</StyledLabel>
       {component === 'select' ? (
-        <StyledField name={name} component="select" id={name} required>
+        <StyledField
+          name={name}
+          component="select"
+          id={name}
+          normalize={normalize}
+          required
+        >
           <option />
           {options.map((option) => (
             <option key={option} value={option}>
@@ -34,6 +41,7 @@ const InputField = ({
           step={step}
           min={min}
           max={max}
+          normalize={normalize}
           required
         />
       )}
