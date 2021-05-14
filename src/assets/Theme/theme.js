@@ -1,6 +1,6 @@
 export const theme = {
   fontSize: {
-    small: '12px',
+    small: '16px',
     normal: '18px',
     big: '24px',
     large: '32px',
@@ -17,7 +17,7 @@ export const theme = {
     crimson: '#dc143c',
   },
   media: {
-    mobile: '767.98px',
-    tablet: '991.98px',
+    ekstraMobile: '400',
+    mobile: '660',
   },
 };
