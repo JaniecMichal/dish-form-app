@@ -6,4 +6,8 @@ export const MainTitle = styled.h1`
   color: ${({ theme }) => theme.colors.mainText};
   padding-bottom: 10px;
   border-bottom: 2px solid ${({ theme }) => theme.colors.scoripion};
+
+  @media (max-width: ${({ theme }) => theme.media.mobile}px) {
+    font-size: ${({ theme }) => theme.fontSize.big};
+  }
 `;
