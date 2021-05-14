@@ -128,8 +128,8 @@ let DishForm = ({
         )}
         {type === 'sandwich' ? (
           <InputField
-            label="slices_of_bread"
-            name="breadSlices"
+            label="Slices of bread"
+            name="slices_of_bread"
             component="input"
             type="number"
             step="1"
