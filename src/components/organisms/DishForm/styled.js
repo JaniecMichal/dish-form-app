@@ -3,7 +3,8 @@ import styled from 'styled-components';
 export const FormWrapper = styled.form`
   width: 100%;
   max-width: 800px;
-  margin-top: 10%;
+  margin-top: 23%;
+  margin-bottom: 5%;
   padding: 20px 30px;
   background-color: ${({ theme }) => theme.colors.mainBackground};
   font-size: 18px;
