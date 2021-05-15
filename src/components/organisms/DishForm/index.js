@@ -148,6 +148,8 @@ let DishForm = ({
 DishForm = reduxForm({
   form: 'DishForm',
   initialValues: {
+    name: '',
+    type: '',
     preparation_time: '00:01:00',
     no_of_slices: 2,
     diameter: 12.5,
