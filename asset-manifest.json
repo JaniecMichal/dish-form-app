@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.js": "/dish-form-app/static/js/main.c5a6d9ec.chunk.js",
+    "main.js.map": "/dish-form-app/static/js/main.c5a6d9ec.chunk.js.map",
+    "runtime-main.js": "/dish-form-app/static/js/runtime-main.c8498375.js",
+    "runtime-main.js.map": "/dish-form-app/static/js/runtime-main.c8498375.js.map",
+    "static/js/2.755477c4.chunk.js": "/dish-form-app/static/js/2.755477c4.chunk.js",
+    "static/js/2.755477c4.chunk.js.map": "/dish-form-app/static/js/2.755477c4.chunk.js.map",
+    "index.html": "/dish-form-app/index.html",
+    "static/js/2.755477c4.chunk.js.LICENSE.txt": "/dish-form-app/static/js/2.755477c4.chunk.js.LICENSE.txt",
+    "static/media/emptyBoard.a5adad57.jpg": "/dish-form-app/static/media/emptyBoard.a5adad57.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c8498375.js",
+    "static/js/2.755477c4.chunk.js",
+    "static/js/main.c5a6d9ec.chunk.js"
+  ]
+}
